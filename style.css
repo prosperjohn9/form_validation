@@ -10,7 +10,8 @@ body {
 }
 
 header,
-footer {
+footer,
+form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,16 +19,18 @@ footer {
 }
 
 form {
-  margin: 0 0 2rem 12rem;
+  flex-direction: column;
+  padding: 1.2rem;
+  margin: -0.8rem;
 }
 
 label {
   display: block;
-  margin: 0.2rem;
+  margin: 0 0.6rem 0.2rem 0.6rem;
 }
 
 input {
-  margin-bottom: 0.4rem;
+  margin: 0 0.4rem 0.4rem 0.4rem;
   width: 22rem;
   height: 1.8rem;
   border-radius: 0.6rem;
@@ -36,7 +39,8 @@ input {
 }
 
 button {
-  margin: 0.4rem 0 0 16rem;
+  align-self: center;
+  margin: 0.4rem;
   padding: 0.4rem 1.2rem;
   border-radius: 0.6rem;
   border: 1px solid black;
@@ -54,7 +58,7 @@ img {
   color: red;
   font-size: 0.8rem;
   display: block;
-  margin-right: 0.6rem;
+  margin: 0.4rem;
   width: 24rem;
 }
 

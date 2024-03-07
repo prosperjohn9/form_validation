@@ -1,8 +1,19 @@
 # Form Validation
 
+Live demo:
+https://prosperjohn9.github.io/form_validation
+
+Desktop View:
+
+![Desktop View](./desk.jpg)
+
+Mobile View:
+
+![Mobile View](./mobile.jpg)
+
 ## Description
 
-This project is about validating forms using the constraint validation API. It includes validation for email, country, zip code, and password fields.
+This project is about validating forms using the constraint validation API. It includes validation for email, country, zip code, and password fields. This project was created for the [Form Validation with JavaScript](https://www.theodinproject.com/lessons/node-path-javascript-form-validation-with-javascript) assignment as part of The Odin Project curriculum. I met all the assignment objectives and then expanded on it with my own concepts to make it more functional and user-friendly.
 
 ## Usage
 
